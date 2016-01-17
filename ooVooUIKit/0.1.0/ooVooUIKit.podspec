@@ -42,7 +42,7 @@ s.source_files = "ooVooUIKit/**/*.{h}"
  # s.dependency 'ooVooSDK2'
  
   # 8
-  s.source_files = "ooVooUIKit/**/*.{h}","ooVooUIKit.framework/Headers/*.h"
+ # s.source_files = "ooVooUIKit/**/*.{h}","ooVooUIKit.framework/Headers/*.h"
  
   # 9
   s.resources = "ooVooUIKit/**/*.{png,jpeg,jpg,storyboard,xib,framework}"
