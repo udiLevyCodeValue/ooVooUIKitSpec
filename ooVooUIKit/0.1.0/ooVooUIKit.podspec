@@ -39,7 +39,7 @@ s.homepage = "https://developer.oovoo.com"
 
   # 7
   s.framework = "UIKit"
-  s.dependency 'ooVooSDK2'
+ # s.dependency 'ooVooSDK2'
  
   # 8
   s.source_files = "ooVooUIKit/**/*.{h}"
