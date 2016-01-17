@@ -33,7 +33,7 @@ s.homepage = "https://developer.oovoo.com"
   # For example,
   # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
  
-s.source_files = "ooVooUIKit/**/*.{h}"
+s.source_files = "ooVooUIKit.framework/Headers/*.h","ooVooUIKit/**/*.{h}"
 #s.preserve_paths = "ooVooUIKit.framework/*"
 #s.vendored_frameworks = "ooVooUIKit.framework"
 
