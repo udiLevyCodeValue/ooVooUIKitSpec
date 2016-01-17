@@ -33,7 +33,7 @@ s.homepage = "https://developer.oovoo.com"
   # For example,
   # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
  
- s.source_files = "ooVooUIKit.framework/headers/*.h"
+ s.source_files = "ooVooUIKit/**/*.{h}"
 #s.preserve_paths = "ooVooUIKit.framework/*"
 #s.vendored_frameworks = "ooVooUIKit.framework"
 
@@ -42,7 +42,7 @@ s.homepage = "https://developer.oovoo.com"
  # s.dependency 'ooVooSDK2'
  
   # 8
-  s.source_files = "ooVooUIKit/**/*.{h}","ooVooUIKit.framework/Headers/*.h"
+ # s.source_files = "ooVooUIKit/**/*.{h}","ooVooUIKit.framework/Headers/*.h"
  
   # 9
   s.resources = "ooVooUIKit/**/*.{png,jpeg,jpg,storyboard,xib}"
